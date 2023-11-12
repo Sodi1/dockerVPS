@@ -14,7 +14,7 @@ services:
     restart: always
 
   nodered:
-    image: nodered/node-red:latest
+    image: nodered/node-red:3.1-debian
     container_name: node-red
     user: node-red
     depends_on:
